@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assignment Task 1</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 250px);
+              row-gap: 5px;
+              column-gap: 5px;
+              padding: 10px
+        }
+         .boxbox1{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-end: 2;
+            grid-row-start: 1;
+         }
+         .boxbox2{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-end: 2;
+            grid-row-start: 3;
+          
+         }
+         .boxbox3{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-end: 2;
+            grid-row-start: 1;
+         }
+         .boxbox4{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-end: 2;
+            grid-row-start: 4;
+         }
+         .boxbox5{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-end: 3;
+            grid-row-start: 4;
+         }
+         .boxbox6{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-end: 4;
+            grid-row-start: 2;
+         }
+         img{
+            height: 100%;
+            width: 100%;
+            border-radius: 5px;
+         }
+    </style>
+</head>
+<body>   
+    <div class="container">
+        <div class="boxbox1">
+            <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202007/nature-3289812_1280_0.jpeg?size=690:388" alt="">
+        </div>
+        <div class="boxbox2">
+            <img src="https://www.sierraclub.org/sites/default/files/styles/sierra_full_page_width/public/slideshows/slide3.jpg.webp?itok=0kiJtcOQ" alt="">
+        </div>
+        <div class="boxbox3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmUc7J_f9RNwX8wx5iW6uLge5-LMsbfpA3Dw&usqp=CAU" alt="">
+        </div>
+        <div class="boxbox4">
+            <img src="https://wallpapers.com/images/hd/pretty-cute-phone-3z6iqros5f3vy2ps.jpg" alt="">
+        </div>
+        <div class="boxbox5">
+            <img src="https://i.insider.com/5a60e93955ac56190a8b46f4?width=600&format=jpeg&auto=webp" alt="">
+        </div>
+        <div class="boxbox6">
+            <img src="https://previews.123rf.com/images/furkanahmet/furkanahmet1909/furkanahmet190900003/133381156-3d-amazing-natural-wallpaper.jpg" alt="">
+        </div>
+    </div>
+    
+</body>
+</html>
